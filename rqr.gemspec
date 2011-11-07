@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name        = "rqr"
-  s.version     = Temp::VERSION
+  s.version     = '0.2.3'
   s.authors     = ["Ryota Maruko"]
   s.email       = ["pools@rubyforge.org"]
   s.homepage    = ""
