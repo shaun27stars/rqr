@@ -7,6 +7,7 @@
 
 #ifdef USE_PNG
 	#include <png.h>
+	#include <zlib.h>
 #endif
 
 //=============================================================================
@@ -17,7 +18,7 @@ class QRDrawPNG : public QRDraw
 	private:
 		int raster(unsigned char data[MAX_MODULESIZE][MAX_MODULESIZE]);
 		int write();
-	
+
 	public:
 		QRDrawPNG(){}
 		~QRDrawPNG(){}
