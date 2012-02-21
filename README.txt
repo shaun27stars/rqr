@@ -1,3 +1,5 @@
+This fork fixes ZLib error when using libpng15 / OSX Lion
+
 == rqr
 
 * http://rubyforge.org/projects/rqr/
@@ -49,8 +51,8 @@ and at http://www.denso-wave.com/qrcode/index-e.html.
 	qr.save("http://www.google.com", "path/to/qrcode.jpg")
 
 	#Define a file format with symbol.
-	qr.save("http://www.yahoo.com", "path/to/qrcodefile", :png)	
-	
+	qr.save("http://www.yahoo.com", "path/to/qrcodefile", :png)
+
 
 == REQUIREMENTS:
 
